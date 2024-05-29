@@ -1,5 +1,5 @@
 # Fake It Till Make It: Federated Learning with Consensus-Oriented Generation (FedCOG)
-> Federated learning with consensus-oriented generation (FedCOG), mitigates the heterogeneity level in federated learning via generating from the shared global model as consensus to complement the original data. FedCOG consists of two key components, complementary data generation to reduce heterogeneity level and knowledge-distillation-based model training to mitigate the effects of heterogeneity. Please check our [paper] (https://arxiv.org/abs/2312.05966) for details.
+Federated learning with consensus-oriented generation (FedCOG), mitigates the heterogeneity level in federated learning via generating from the shared global model as consensus to complement the original data. FedCOG consists of two key components, complementary data generation to reduce heterogeneity level and knowledge-distillation-based model training to mitigate the effects of heterogeneity. Please check our [paper] (https://arxiv.org/abs/2312.05966) for details.
 
 ![intro](assets/overview_v1.png)
 
@@ -49,8 +49,3 @@ Please cite our paper if you find the repository helpful. See other projects and
   booktitle={The Twelfth International Conference on Learning Representations},
   year={2023}
 }
-<<<<<<< HEAD
-```
-=======
-```
->>>>>>> initial commit
