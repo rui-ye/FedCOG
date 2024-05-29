@@ -36,7 +36,7 @@ Key arguments:
 - `comm_round`: the number of maximum communication roun
 - `save_model`: the hyperparameter to decide whether to save the global model at the end.
 
-We also provide implementation of FedAvg, FedAvgM, MOON, SCAFFOLD and FedProx algorithms in `run.sh`.
+We also provide implementation of FedAvg, FedAvgM, MOON and FedProx algorithms in `run.sh`.
 
 ## Citation
 

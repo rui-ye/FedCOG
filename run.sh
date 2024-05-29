@@ -26,9 +26,6 @@ python -u fedcog.py --dataset $dataset --gpu "6" --partition $data_partition --m
 # mu=0.01
 # python -u moon.py --mu $mu --dataset $dataset --gpu "0" --partition $data_partition --model $model --n_parties $client --sample_fraction $sample_fraction --num_local_iterations $iternum --beta $beta --comm_round $comm_round --save_model > $dir_path/moon_${mu}.log
 
-# ################ SCAFFOLD ################
-# python -u scaffold.py --dataset $dataset --gpu "0" --partition $data_partition --model $model --n_parties $client --sample_fraction $sample_fraction --num_local_iterations $iternum --beta $beta --comm_round $comm_round --save_model > $dir_path/scaffold.log
-
 # ################ FedProx ################
 # mu=0.01
 # python -u fedprox.py --mu $mu --dataset $dataset --gpu "4" --partition $data_partition --model $model --n_parties $client --sample_fraction $sample_fraction --num_local_iterations $iternum --beta $beta --comm_round $comm_round --save_model > $dir_path/fedprox_${mu}.log
