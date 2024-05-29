@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Fake It Till Make It: Federated Learning with Consensus-Oriented Generation, ICLR 2024
-
-Coming soon...
-=======
 # Fake It Till Make It: Federated Learning with Consensus-Oriented Generation (FedCOG)
 > Federated learning with consensus-oriented generation (FedCOG), mitigates the heterogeneity level in federated learning via generating from the shared global model as consensus to complement the original data. FedCOG consists of two key components, complementary data generation to reduce heterogeneity level and knowledge-distillation-based model training to mitigate the effects of heterogeneity. Please check our [paper] (https://arxiv.org/abs/2312.05966) for details.
 
@@ -42,7 +37,6 @@ Key arguments:
 - `save_model`: the hyperparameter to decide whether to save the global model at the end.
 
 We also provide implementation of FedAvg, FedAvgM, MOON, SCAFFOLD and FedProx algorithms in `run.sh`.
->>>>>>> initial commit
 
 ## Citation
 
